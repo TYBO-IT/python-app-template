@@ -1,0 +1,11 @@
+application:
+  profile: dev
+  name: MyApp
+  
+logging:
+  console:
+    level: DEBUG
+  file:
+    name: "logging"
+    path: "./log"
+    level: debug
