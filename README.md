@@ -2,9 +2,22 @@
 
 Helps you getting started creating python applications. The architecture is heavily inspired by Java and Spring Boot, and it is our intention to gradually improve this over time, so that we can achieve a level of dependency injection and inversion to make further development a breeze.
 
-## How to Start
+## Setup project and install dependencies
 
-- Edit `src/main/resources/application.yml`
+```bash
+# Creates virtual environment
+python -m venv venv 
+
+# Jump into the virtual environment
+.\venv\Scripts\Activate.ps1
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Run Project
+
+- Edit `src/main/resources/application.yml` and populate with desired values.  
 - Run `src/main/python/main.py` from commandline or the IDE. If you are using an IDE other than VS Code, please generate a gitignore (see `.gitignore` for edit URL)
 
 # Contributions
