@@ -24,7 +24,7 @@ Contributions are always welcome from anyone.
 
 ----
 
-# MIT Lisence
+# MIT License
 
 Copyright (c) 2022 Ivan Skodje
 
