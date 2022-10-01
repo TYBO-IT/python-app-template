@@ -2,14 +2,25 @@
 
 Helps you getting started creating python applications. The architecture is heavily inspired by Java and Spring Boot, and it is our intention to gradually improve this over time, so that we can achieve a level of dependency injection and inversion to make further development a breeze.
 
+## Prerequisites
+```bash
+# On Ubuntu:
+sudo apt install python3.10-venv
+```
+
 ## Setup project and install dependencies
 
 ```bash
 # Creates virtual environment
-python -m venv venv 
+python -m venv venv
 
 # Jump into the virtual environment
-.\venv\Scripts\Activate.ps1
+## IF Windows:
+# .\venv\Scripts\Activate.ps1
+
+## IF on Ubuntu/Linux:
+source venv/bin/activate
+
 
 # Install dependencies
 pip install -r requirements.txt
